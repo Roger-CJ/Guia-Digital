@@ -1,10 +1,11 @@
+/* Estilos focados em alta legibilidade e fontes grandes */
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f7f6;
     color: #222;
     margin: 0;
     padding: 0;
-    font-size: 35px; /* Fonte grande para leitura facilitada */
+    font-size: 22px; /* Fonte base grande para leitura facilitada */
 }
 
 header {
@@ -24,6 +25,41 @@ header p {
     font-size: 24px;
 }
 
+/* Container do Botão de Ajuda Superior */
+.ajuda-container {
+    max-width: 1300px;
+    margin: 20px auto 0 auto;
+    padding: 0 10px;
+}
+
+.ajuda-principal-btn {
+    width: 100%;
+    padding: 22px;
+    background-color: #fff;
+    color: #0056b3;
+    border: 4px solid #0056b3;
+    border-radius: 8px;
+    font-size: 26px;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: all 0.2s;
+}
+
+.ajuda-principal-btn:hover {
+    background-color: #f0f7ff;
+    border-color: #004085;
+}
+
+.ajuda-principal-btn.active {
+    background-color: #0056b3;
+    color: white;
+    border-color: #004085;
+    box-shadow: inset 0 4px 8px rgba(0,0,0,0.2);
+}
+
+/* Layout Geral */
 .container {
     display: flex;
     max-width: 1300px;
@@ -59,7 +95,7 @@ nav h2 {
     color: #333;
     border: 3px solid #ccc;
     border-radius: 8px;
-    font-size: 30px;
+    font-size: 24px;
     font-weight: bold;
     cursor: pointer;
     text-align: left;
@@ -78,7 +114,7 @@ nav h2 {
     border-color: #1e7e34;
 }
 
-/* Conteúdo */
+/* Área do Conteúdo */
 main {
     flex: 2.5;
     background: white;
@@ -164,7 +200,7 @@ li strong {
     font-size: 28px;
 }
 
-
+/* Espaço para Imagens Grandes */
 .tutorial-img {
     display: block;
     max-width: 100%;
@@ -177,5 +213,5 @@ li strong {
     padding: 30px 10px;
     color: #555;
     font-size: 20px;
-    font-style: italic;
+    font-style: arial;
 }

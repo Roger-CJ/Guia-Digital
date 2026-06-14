@@ -10,9 +10,14 @@
 
     <header>
         <h1>Guia Digital Facilitado</h1>
-        <p>Escolha um aplicativo no menu ao lado para ler o passo a passo com letras grandes.</p>
+        <p>Escolha um aplicativo no menu ao lado.</p>
     </header>
-
+    <div class="ajuda-container">
+        <button class="ajuda-principal-btn active" onclick="alterarAbas('ajuda-plataforma', this)">
+            ❓ Precisa de Ajuda? Clique aqui para aprender a usar esta página
+        </button>
+    </div>
+    
     <div class="container">
         <nav>
             <h2>Escolha o Aplicativo:</h2>
@@ -25,7 +30,28 @@
         </nav>
 
         <main id="conteudo-tutorial">
-            
+            <section id="ajuda-plataforma" class="tutorial-section active">
+                <h2 class="app-title">Como usar este Guia Digital</h2>
+                <ul>
+                    <li>
+                        <strong>🔲 1. Escolha um aplicativo no menu</strong>
+                        Olhe para o lado esquerdo do ecrã (ou para cima, se estiver no telemóvel). Clique ou toque no botão do aplicativo que deseja aprender a usar.
+                    </li>
+                    <li>
+                        <strong>📜 2. Leia o passo a passo</strong>
+                        O texto no centro do ecrã vai mudar automaticamente. Cada lição está numerada e escrita com letras bem grandes para facilitar a leitura.
+                    </li>
+                    <li>
+                        <strong>🖼️ 3. Olhe as imagens demonstrativas</strong>
+                        Abaixo de alguns passos, verá fotos ilustrativas. Elas servem para comparar com o ecrã do seu próprio telemóvel e ter a certeza de que está no caminho certo.
+                    </li>
+                    <li>
+                        <strong>🔝 4. Voltar para o início</strong>
+                        Sempre que escolher um aplicativo novo, a página vai voltar para o topo sozinha. Assim nunca se perde na leitura!
+                    </li>
+                </ul>
+            </section>
+
             <section id="whatsapp" class="tutorial-section active">
                 <h2 class="app-title">Como usar o WhatsApp</h2>
                 <ul>
